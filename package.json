@@ -1,0 +1,43 @@
+{
+  "name": "monorepo",
+  "version": "0.1.0",
+  "description": "What is [Monorepo](https://en.wikipedia.org/wiki/Monorepo)?",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "common": "yarn workspace @mono/common dev",
+    "app1": "yarn workspace app1 dev",
+    "app2": "yarn workspace app2 dev",
+    "app3": "yarn workspace app3 dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqxs/monorepo.git"
+  },
+  "keywords": [],
+  "author": "ShineShao <xiaoshaoqq@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qqxs/monorepo/issues"
+  },
+  "homepage": "https://github.com/qqxs/monorepo#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@mono/common": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.3",
+    "@types/node": "^15.12.4",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "koa": "^2.13.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}

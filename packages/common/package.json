@@ -1,0 +1,13 @@
+{
+  "name": "@mono/common",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",                          
+    "allowJs": true,                             
+    "checkJs": true,                             
+    "strict": true,                                
+    "esModuleInterop": true,                      
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  }
+}
