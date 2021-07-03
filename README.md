@@ -35,9 +35,12 @@ yarn run common
 # run app1
 yarn run app1
 
-# run app2
+# run node server (Koa2)
 yarn run app2
 
-# run app3
-yarn run app3
+# run react server render (next.js)
+yarn run app-next
+
+# run react spa
+yarn run app-react
 ```
