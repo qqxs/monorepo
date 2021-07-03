@@ -6,8 +6,7 @@
     "dev": "ts-node index.ts",
     "build": "tsc index.ts"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "keywords": [],
   "dependencies": {}
 }

@@ -1,3 +1,3 @@
 import commonFn from "@mono/common";
 
-commonFn("This is app1");
+commonFn("commonjs import @mono/common");
