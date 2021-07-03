@@ -3,16 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "type-check": "tsc"
+    "dev": "ts-node index.ts",
+    "build": "ts-node index.ts"
   },
   "devDependencies": {
-    "common": "link:../common"
   },
-  "keywords": [],
-  "dependencies": {
-    "next": "^11.0.1"
-  }
+  "keywords": []
 }
