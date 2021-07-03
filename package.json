@@ -11,9 +11,11 @@
   },
   "scripts": {
     "common": "yarn workspace @mono/common dev",
+    "app-next": "yarn workspace app-next dev",
+    "app-react": "yarn workspace app-react start",
     "app1": "yarn workspace app1 dev",
     "app2": "yarn workspace app2 dev",
-    "app3": "yarn workspace app3 dev"
+    "my-app": "yarn workspace my-app start"
   },
   "repository": {
     "type": "git",
@@ -28,15 +30,17 @@
   "homepage": "https://github.com/qqxs/monorepo#readme",
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "@mono/common": "0.1.0"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@craco/craco": "^6.1.2",
     "@types/koa": "^2.13.3",
     "@types/node": "^15.12.4",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
     "koa": "^2.13.1",
+    "next": "^11.0.1",
+    "next-transpile-modules": "^8.0.0",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.4"
   }
